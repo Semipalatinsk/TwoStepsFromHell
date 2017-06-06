@@ -9,19 +9,13 @@
 import UIKit
 
 //*************************** Class Declaration ****************************
-class producer {
+class Producer {
     var image: String = ""
     var name: String = "Two Steps From Hell"
     var description: String = "Two Steps from Hell is an American production music company based in Los Angeles, California, founded by Thomas J. Bergersen and Nick Phoenix in 2006. The company focuses predominantly on movie and trailer music, and has supplied tracks to films such as Interstellar, Harry Potter, Pirates of the Caribbean, and X-Men."
-    
-    init(image: String, name: String, description: String) {
-        self.image = image
-        self.name = name
-        self.description = description
-    }
 }
 
-class track {
+class Track {
     var name: String = ""
     var url: String = ""
     
@@ -31,13 +25,15 @@ class track {
     }
 }
 
-class album {
+class Album {
+    var image: String = ""
     var name: String = ""
     var year: String = ""
     var description:String = ""
-    var tracks: [track] = []
+    var tracks: [Track] = []
     
-    init(name: String, year: String, description: String, tracks: [track]) {
+    init(image: String, name: String, year: String, description: String, tracks: [Track]) {
+        self.image = image
         self.name = name
         self.year = year
         self.description = description
@@ -46,27 +42,36 @@ class album {
 }
 
 //*************************** Track Data ****************************
-var ArchangelTrack: [track] = [
-    track(name: "Mercy in Darkness", url: "https://youtu.be/D9TtYbt7mCg"),
-    track(name: "Archangel", url: "https://youtu.be/mLUguXpUIb0")
+var producer: Producer = Producer.init()
+
+var ArchangelTrack: [Track] = [
+    Track(name: "Mercy in Darkness", url: "https://youtu.be/D9TtYbt7mCg"),
+    Track(name: "Archangel", url: "https://youtu.be/mLUguXpUIb0")
 ]
 
-var SkyWorldTrack: [track] = [
-    track(name: "All Is Hell That Ends Well", url: "https://youtu.be/NLUj9lFPU6s"),
-    track(name: "Titan Dream", url: "https://youtu.be/xwX84DOz2XQ")
+var SkyWorldTrack: [Track] = [
+    Track(name: "All Is Hell That Ends Well", url: "https://youtu.be/NLUj9lFPU6s"),
+    Track(name: "Titan Dream", url: "https://youtu.be/xwX84DOz2XQ")
 ]
 
-class AlbumViewController: UIViewController {
+var AlbumList: [Album] = [
+    Album(image: "", name: "Archangel", year: "2011", description: "Archangel is the second public album by the group Two Steps from Hell. It consists of 26 tracks written by composers Thomas J. Bergersen and Nick Phoenix. The album contains 14 tracks from the album Nero.", tracks: ArchangelTrack),
+    Album(image: "", name: "SkyWorld", year: "2012", description: "SkyWorld is the fourth public album by the group Two Steps from Hell. The album contains 22 tracks written by composers Thomas J. Bergersen and Nick Phoenix. All tracks, except for Dark Ages, are brand new original tracks. The cover and sleeve are designed by Steven R. Gilmore, with the futuristic city illustration by Sergey Vorontsov.", tracks: SkyWorldTrack)
+]
+
+//*************************** AlbumViewController ****************************
+class AlbumViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
-    var AlbumList: [album] = [
-        album(name: "Archangel", year: "2011", description: "Archangel is the second public album by the group Two Steps from Hell. It consists of 26 tracks written by composers Thomas J. Bergersen and Nick Phoenix. The album contains 14 tracks from the album Nero.", tracks: ArchangelTrack),
-        album(name: "SkyWorld", year: "2012", description: "SkyWorld is the fourth public album by the group Two Steps from Hell. The album contains 22 tracks written by composers Thomas J. Bergersen and Nick Phoenix. All tracks, except for Dark Ages, are brand new original tracks. The cover and sleeve are designed by Steven R. Gilmore, with the futuristic city illustration by Sergey Vorontsov.", tracks: SkyWorldTrack)
-    ]
+    @IBOutlet var ProducerImageView: UIImageView!
+    @IBOutlet var ProducerNameLabel: UILabel!
+    @IBOutlet var ProducerDescriptionLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        ProducerImageView.image = UIImage(named: producer.image)
+        ProducerNameLabel.text = producer.name
+        ProducerDescriptionLabel.text = producer.description
     }
 
     override func didReceiveMemoryWarning() {
@@ -74,15 +79,26 @@ class AlbumViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return AlbumList.count
     }
-    */
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cellIdentifier = "Cell"
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
+        
+        cell.textLabel?.text = AlbumList[indexPath.row].name
+        
+        return cell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDLDetail" {
+            if let indexPath = tableView.indexPathForSelectedRow {
+                let destinationController = segue.destination as! TrackViewController
+                destinationController.album = AlbumList[indexPath.row]
+            }
+        }
+    }
 
 }
