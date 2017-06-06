@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		823A112D1EE6CBA000BFFD92 /* MusicDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823A112C1EE6CBA000BFFD92 /* MusicDatas.swift */; };
 		8284AB751EDEB21300F74806 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284AB741EDEB21300F74806 /* AppDelegate.swift */; };
 		8284AB771EDEB21300F74806 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8284AB761EDEB21300F74806 /* ViewController.swift */; };
 		8284AB7A1EDEB21300F74806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8284AB781EDEB21300F74806 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		823A112C1EE6CBA000BFFD92 /* MusicDatas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicDatas.swift; sourceTree = "<group>"; };
 		8284AB711EDEB21300F74806 /* TwoStepsFromHell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoStepsFromHell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8284AB741EDEB21300F74806 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8284AB761EDEB21300F74806 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				8284AB741EDEB21300F74806 /* AppDelegate.swift */,
 				8284AB761EDEB21300F74806 /* ViewController.swift */,
+				823A112C1EE6CBA000BFFD92 /* MusicDatas.swift */,
 				8284AB781EDEB21300F74806 /* Main.storyboard */,
 				8284AB7B1EDEB21300F74806 /* Assets.xcassets */,
 				8284AB7D1EDEB21300F74806 /* LaunchScreen.storyboard */,
@@ -150,6 +153,7 @@
 				8EDAD7D51EE6D119009B8604 /* AlbumViewController.swift in Sources */,
 				8EDAD7D91EE6D1CA009B8604 /* MoreAboutViewController.swift in Sources */,
 				8284AB771EDEB21300F74806 /* ViewController.swift in Sources */,
+				823A112D1EE6CBA000BFFD92 /* MusicDatas.swift in Sources */,
 				8284AB751EDEB21300F74806 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
