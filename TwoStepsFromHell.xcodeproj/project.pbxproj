@@ -12,6 +12,9 @@
 		8284AB7A1EDEB21300F74806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8284AB781EDEB21300F74806 /* Main.storyboard */; };
 		8284AB7C1EDEB21300F74806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8284AB7B1EDEB21300F74806 /* Assets.xcassets */; };
 		8284AB7F1EDEB21300F74806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8284AB7D1EDEB21300F74806 /* LaunchScreen.storyboard */; };
+		8EDAD7D51EE6D119009B8604 /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDAD7D41EE6D119009B8604 /* AlbumViewController.swift */; };
+		8EDAD7D71EE6D130009B8604 /* MusiclistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDAD7D61EE6D130009B8604 /* MusiclistViewController.swift */; };
+		8EDAD7D91EE6D1CA009B8604 /* MoreAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDAD7D81EE6D1CA009B8604 /* MoreAboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		8284AB7B1EDEB21300F74806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8284AB7E1EDEB21300F74806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8284AB801EDEB21300F74806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EDAD7D41EE6D119009B8604 /* AlbumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlbumViewController.swift; path = ../AlbumViewController.swift; sourceTree = "<group>"; };
+		8EDAD7D61EE6D130009B8604 /* MusiclistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusiclistViewController.swift; sourceTree = "<group>"; };
+		8EDAD7D81EE6D1CA009B8604 /* MoreAboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreAboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				8284AB7B1EDEB21300F74806 /* Assets.xcassets */,
 				8284AB7D1EDEB21300F74806 /* LaunchScreen.storyboard */,
 				8284AB801EDEB21300F74806 /* Info.plist */,
+				8EDAD7D41EE6D119009B8604 /* AlbumViewController.swift */,
+				8EDAD7D61EE6D130009B8604 /* MusiclistViewController.swift */,
+				8EDAD7D81EE6D1CA009B8604 /* MoreAboutViewController.swift */,
 			);
 			path = TwoStepsFromHell;
 			sourceTree = "<group>";
@@ -137,6 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EDAD7D71EE6D130009B8604 /* MusiclistViewController.swift in Sources */,
+				8EDAD7D51EE6D119009B8604 /* AlbumViewController.swift in Sources */,
+				8EDAD7D91EE6D1CA009B8604 /* MoreAboutViewController.swift in Sources */,
 				8284AB771EDEB21300F74806 /* ViewController.swift in Sources */,
 				8284AB751EDEB21300F74806 /* AppDelegate.swift in Sources */,
 			);
@@ -304,6 +316,7 @@
 				8284AB851EDEB21300F74806 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
