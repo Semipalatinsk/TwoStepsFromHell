@@ -10,8 +10,8 @@ import UIKit
 
 class TrackViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    @IBOutlet var TrackTableView: UITableView!
     @IBOutlet var AlbumImageView: UIImageView!
-
     @IBOutlet var AlbumDescriptionLabel: UILabel!
     
     var album: Album!
