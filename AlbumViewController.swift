@@ -59,17 +59,26 @@ var AlbumList: [Album] = [
     Album(image: "", name: "SkyWorld", year: "2012", description: "SkyWorld is the fourth public album by the group Two Steps from Hell. The album contains 22 tracks written by composers Thomas J. Bergersen and Nick Phoenix. All tracks, except for Dark Ages, are brand new original tracks. The cover and sleeve are designed by Steven R. Gilmore, with the futuristic city illustration by Sergey Vorontsov.", tracks: SkyWorldTrack)
 ]
 
+class TableViewCell: UITableViewCell {
+    @IBOutlet var AlbumImageView: UIImageView!
+    @IBOutlet var AlbumNameLabel: UILabel!
+    @IBOutlet var AlbumYear: UILabel!
+}
+
 //*************************** AlbumViewController ****************************
 class AlbumViewController: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
+    @IBOutlet var tableView: UITableView!
     @IBOutlet var ProducerImageView: UIImageView!
     @IBOutlet var ProducerNameLabel: UILabel!
     @IBOutlet var ProducerDescriptionLabel: UILabel!
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        ProducerImageView.image = UIImage(named: producer.image)
+        //ProducerImageView.image = UIImage(named: producer.image)
         ProducerNameLabel.text = producer.name
         ProducerDescriptionLabel.text = producer.description
     }
@@ -85,15 +94,17 @@ class AlbumViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "Cell"
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! TableViewCell
         
-        cell.textLabel?.text = AlbumList[indexPath.row].name
+        cell.AlbumImageView.image = UIImage(named: AlbumList[indexPath.row].image)
+        cell.AlbumNameLabel.text = AlbumList[indexPath.row].name
+        cell.AlbumYear.text = AlbumList[indexPath.row].year
         
         return cell
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showDLDetail" {
+        if segue.identifier == "showTrack" {
             if let indexPath = tableView.indexPathForSelectedRow {
                 let destinationController = segue.destination as! TrackViewController
                 destinationController.album = AlbumList[indexPath.row]
