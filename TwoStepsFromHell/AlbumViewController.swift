@@ -46,7 +46,31 @@ var producer: Producer = Producer.init()
 
 var ArchangelTrack: [Track] = [
     Track(name: "Mercy in Darkness", url: "https://youtu.be/D9TtYbt7mCg"),
-    Track(name: "Archangel", url: "https://youtu.be/mLUguXpUIb0")
+    Track(name: "Archangel", url: "https://youtu.be/mLUguXpUIb0"),
+    Track(name: "Everlasting", url: "https://www.youtube.com/watch?v=KFcwvsc522Y&index=6&list=PLEB32169AC91318A2"),
+    Track(name: "United We Stand, Divided We Fall", url: "https://www.youtube.com/watch?v=6O6Q1OiF6LI&list=PLEB32169AC91318A2&index=7"),
+    Track(name: "Love & Loss", url: "https://www.youtube.com/watch?v=4ctj97FAylQ&list=PLEB32169AC91318A2&index=8"),
+    Track(name: "The Last Stand", url: "https://www.youtube.com/watch?v=H7qOJrT_lUg&list=PLEB32169AC91318A2&index=9"),
+    Track(name: "Nero", url: "https://www.youtube.com/watch?v=7LtnLVRvypw&index=10&list=PLEB32169AC91318A2"),
+    Track(name: "Destructo", url: "https://www.youtube.com/watch?v=Nc4hQsRpD6E&index=11&list=PLEB32169AC91318A2"),
+    Track(name: "Atlantis", url: "https://www.youtube.com/watch?v=XB8k7LhoIV0&list=PLEB32169AC91318A2&index=12"),
+    Track(name: "Strength of a Thousand Men", url: "https://www.youtube.com/watch?v=jIxas0a-KgM&list=PLEB32169AC91318A2&index=1"),
+    Track(name: "Unexplained Forces", url: "https://www.youtube.com/watch?v=0TwP8aN-IIc&list=PLEB32169AC91318A2&index=15"),
+    Track(name: "Magic of Love", url: "https://www.youtube.com/watch?v=t62B1EzTmDg&list=PLEB32169AC91318A2&index=16"),
+    Track(name: "Norwegian Pirate", url: "https://www.youtube.com/watch?v=7S3DDr-TiDQ&list=PLEB32169AC91318A2&index=17"),
+    Track(name: "Dark Harbor", url: "https://www.youtube.com/watch?v=PgroHfKeZ3s&index=18&list=PLEB32169AC91318A2"),
+    Track(name: "Dragon Rider", url: "https://www.youtube.com/watch?v=pKv_wua6kFE&index=20&list=PLEB32169AC91318A2"),
+    Track(name: "Mountains From Water", url: "https://www.youtube.com/watch?v=Z_0Ta-m_-hU&list=PLEB32169AC91318A2&index=21"),
+    Track(name: "Titan Dune", url: "https://www.youtube.com/watch?v=EYkOpm0ZxNI&list=PLEB32169AC91318A2&index=22"),
+    Track(name: "Ironwing", url: "https://www.youtube.com/watch?v=xwBLoEfxlAA&list=PLEB32169AC91318A2&index=23"),
+    Track(name: "Army of Justice", url: "https://www.youtube.com/watch?v=y2e3pXPHt60&list=PLEB32169AC91318A2&index=24"),
+    Track(name: "Immortal Avenger", url: "https://www.youtube.com/watch?v=5STVoaxz8-Y&index=26&list=PLEB32169AC91318A2"),
+    Track(name: "He Who Brings the Night", url: "https://www.youtube.com/watch?v=dxNwZ0_xvP8&list=PLEB32169AC91318A2&index=27"),
+    Track(name: "Caradhras", url: "https://www.youtube.com/watch?v=ZDci1jlOMQI&index=28&list=PLEB32169AC91318A2"),
+    Track(name: "Sanctuary Is Lost", url: "https://www.youtube.com/watch?v=NraFTvSu1lg&index=29&list=PLEB32169AC91318A2"),
+    Track(name: "What's Happening to Me", url: "https://www.youtube.com/watch?v=kDtuUgigtQE&index=30&list=PLEB32169AC91318A2"),
+    Track(name: "Aesir", url: "https://www.youtube.com/watch?v=dlIHGrTlGRo&list=PLEB32169AC91318A2&index=31"),
+    Track(name: "Friendship to Last", url: "https://www.youtube.com/watch?v=Iu74pVYkhNI&list=PLEB32169AC91318A2&index=32")
 ]
 
 var SkyWorldTrack: [Track] = [
