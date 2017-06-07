@@ -13,6 +13,7 @@ class TrackViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     @IBOutlet var TrackTableView: UITableView!
     @IBOutlet var AlbumImageView: UIImageView!
+    @IBOutlet var AlbumNameLabel: UILabel!
     @IBOutlet var AlbumDescriptionLabel: UILabel!
     
     var album: Album!
@@ -21,14 +22,14 @@ class TrackViewController: UIViewController, UITableViewDataSource, UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        self.title = album.name
+        AlbumImageView.image = UIImage(named: album.image)
         AlbumDescriptionLabel.text = album.description
         tracks = album.tracks
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

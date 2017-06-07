@@ -79,14 +79,13 @@ class AlbumViewController: UIViewController, UITableViewDataSource, UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        //ProducerImageView.image = UIImage(named: producer.image)
+        ProducerImageView.image = UIImage(named: producer.image)
         ProducerNameLabel.text = producer.name
         ProducerDescriptionLabel.text = producer.description
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
