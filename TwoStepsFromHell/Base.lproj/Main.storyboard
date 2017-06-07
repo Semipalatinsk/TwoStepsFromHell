@@ -43,7 +43,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <state key="normal" title="&lt; back"/>
                                 <connections>
-                                    <segue destination="khq-sb-zrD" kind="show" id="Fk8-gP-JYS"/>
+                                    <segue destination="c62-wq-Ci1" kind="show" id="WSg-2e-a4l"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -241,15 +241,8 @@
                                     <outlet property="delegate" destination="pCM-fp-jse" id="ACe-7W-tfI"/>
                                 </connections>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ZE-fk-CFd" userLabel="AlbumNameLabel">
-                                <rect key="frame" x="208" y="64" width="206" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cEd-Pn-G2P" userLabel="DescriptionLabel">
-                                <rect key="frame" x="208" y="97" width="206" height="167"/>
+                                <rect key="frame" x="208" y="64" width="206" height="200"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
@@ -316,6 +309,6 @@
         <image name="two-steps-from-hell" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="mX4-A6-tMW"/>
+        <segue reference="WSg-2e-a4l"/>
     </inferredMetricsTieBreakers>
 </document>
