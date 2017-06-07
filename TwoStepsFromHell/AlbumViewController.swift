@@ -71,21 +71,14 @@ class AlbumViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     @IBOutlet var tableView: UITableView!
     @IBOutlet var ProducerImageView: UIImageView!
-    //@IBOutlet var ProducerNameLabel: UILabel!
     @IBOutlet var ProducerDescriptionLabel: UILabel!
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-<<<<<<< HEAD
-        //ProducerImageView.image = UIImage(named: producer.image)
-        //ProducerNameLabel.text = producer.name
-=======
-        ProducerImageView.image = UIImage(named: producer.image)
-        ProducerNameLabel.text = producer.name
->>>>>>> bfad204eb91f5d797a69d826dc47543a3474f600
+        
+        self.title = producer.name
         ProducerDescriptionLabel.text = producer.description
     }
 
