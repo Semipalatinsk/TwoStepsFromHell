@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 
 class TrackViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
@@ -41,6 +42,12 @@ class TrackViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         return cell
     }
-
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let url = URL(string: tracks[indexPath.row].url) {
+            let safariController = SFSafariViewController(url: url)
+            present(safariController, animated: true, completion: nil)
+        }
+    }
 
 }
