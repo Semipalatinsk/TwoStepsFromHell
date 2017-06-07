@@ -51,7 +51,35 @@ var ArchangelTrack: [Track] = [
 
 var SkyWorldTrack: [Track] = [
     Track(name: "All Is Hell That Ends Well", url: "https://youtu.be/NLUj9lFPU6s"),
-    Track(name: "Titan Dream", url: "https://youtu.be/xwX84DOz2XQ")
+    Track(name: "Titan Dream", url: "https://youtu.be/xwX84DOz2XQ"),
+    Track(name: "SkyWorld", url: "https://youtu.be/Lq2ANOkfsIA"),
+    Track(name: "El Dorado", url: "https://youtu.be/qiB98Wbsdlo"),
+    Track(name: "The End Is the Beginning", url: "https://youtu.be/9ooqgBi6j_k"),
+    Track(name: "All the King's Horses", url: "https://youtu.be/H-DDh5NIZRg"),
+    Track(name: "Realm of Power", url: "https://youtu.be/ZLncHqaW7fY"),
+    Track(name: "Winterspell", url: "https://youtu.be/GLqiQWAXQh8"),
+    Track(name: "Blackheart", url: "https://youtu.be/vbttZVTSJRU"),
+    Track(name: "Juggernaut", url: "https://youtu.be/-SRpwqGh4Go"),
+    Track(name: "Dark Ages", url: "https://youtu.be/rjagObe8-RY"),
+    Track(name: "Our Last Hope", url: "https://youtu.be/4RIlLjutKSI"),
+    Track(name: "Icarus", url: "https://youtu.be/qH8Kb8bRzBI"),
+    Track(name: "For the Win", url: "https://youtu.be/rl_ndy61ON4"),
+    Track(name: "Sun & Moon", url: "https://youtu.be/j-aWVg_pOrc"),
+    Track(name: "Big Sky", url: "https://youtu.be/FkyPFhZHfhg"),
+    Track(name: "Starfleet", url: "https://youtu.be/jeFT3Fh6KFM"),
+    Track(name: "Queen of Crows", url: "https://youtu.be/OxLQvZT3KQc"),
+    Track(name: "Blizzard", url: "https://youtu.be/FpU0FoPsaes"),
+    Track(name: "Breathe", url: "https://youtu.be/_r2jqib5EXU"),
+    Track(name: "Back to the Earth", url: "https://youtu.be/NEusiw3iouE"),
+    Track(name: "Ocean Kingdom", url: "https://youtu.be/1LQKLYTxz44"),
+    Track(name: "Freedom Fighters Remix", url: "https://youtu.be/Yp-QqkkXfcQ"),
+    Track(name: "Identity Crime", url: "https://youtu.be/pt_9uxBkkgQ"),
+    Track(name: "Beneath the Ice", url: "https://youtu.be/taVFwFdTZ4s"),
+    Track(name: "The World Is Mind", url: "https://youtu.be/dNzrFKxyb60"),
+    Track(name: "Children from the War", url: "https://youtu.be/lT1xg15Cf9s"),
+    Track(name: "Requiem for Destruction", url: "https://youtu.be/osllhYsTD5A"),
+    Track(name: "The Colonel", url: "https://youtu.be/0NFi8d1MZ5c"),
+    Track(name: "Stormwatch", url: "https://youtu.be/FT0xQioJrDU")
 ]
 
 var AlbumList: [Album] = [
