@@ -44,6 +44,53 @@ class Album {
 //*************************** Data Initialization ****************************
 var producer: Producer = Producer.init()
 
+var InvincibleTrack: [Track] = [
+    Track(name: "Freedom Fighters", url: "https://youtu.be/YP1QHVNHMAE"),
+    Track(name: "Heart of Courage", url: "https://youtu.be/8NGtL3HUPUo"),
+    Track(name: "Master of Shadows", url: "https://youtu.be/-PqGc3qiXIs"),
+    Track(name: "Moving Mountains", url: "https://youtu.be/WiST_CY8Zo4"),
+    Track(name: "Am I Not Human?", url: "https://youtu.be/1Q2oExZFwtE"),
+    Track(name: "Enigmatic Soul", url: "https://youtu.be/WbEa27qCEms"),
+    Track(name: "Fire Nation", url: "https://youtu.be/BZpbn03kV2U"),
+    Track(name: "Black Blade", url: "https://youtu.be/HPe4G9BiIc4"),
+    Track(name: "Super Strength", url: "https://youtu.be/5qAMIVytZPw"),
+    Track(name: "Invincible", url: "https://youtu.be/XPiWUq5DUjE"),
+    Track(name: "False King", url: "https://youtu.be/-gkBmgpAb9U"),
+    Track(name: "Hypnotica", url: "https://youtu.be/PGVTTgTY6QU"),
+    Track(name: "Fill My Heart", url: "https://youtu.be/0T0LUh92sWs"),
+    Track(name: "Protectors of the Earth", url: "https://youtu.be/x5Q_TSNk-p4"),
+    Track(name: "Velocitron", url: "https://youtu.be/CsduPlcyUik"),
+    Track(name: "Undying Love", url: "https://youtu.be/Rt_AfjkWV8A"),
+    Track(name: "1000 Ships of the Underworld", url: "https://youtu.be/wZpAGjczdus"),
+    Track(name: "Tristan", url: "https://youtu.be/mVbjhw0ZxC0"),
+    Track(name: "Breath of Ran Gor", url: "https://youtu.be/8mJJzFAiKEY"),
+    Track(name: "Infinite Legends", url: "https://youtu.be/MuoZeie2Czk"),
+    Track(name: "To Glory", url: "https://youtu.be/abjE9Qx0O60"),
+    Track(name: "After the Fall", url: "https://youtu.be/cj8ADt48oAE")
+]
+
+var IllusionsTrack: [Track] = [
+    Track(name: "Aura", url: "https://youtu.be/JNOpKwnAQyw"),
+    Track(name: "Starvation", url: "https://youtu.be/YnGaCAHhGfo"),
+    Track(name: "Dreammaker", url: "https://youtu.be/k20NwCro8ig"),
+    Track(name: "Hurt", url: "https://youtu.be/VbdTeKo14Jw"),
+    Track(name: "Ocean Princess", url: "https://youtu.be/IwRPc2041Sc"),
+    Track(name: "Gift of Life", url: "https://youtu.be/qgOoB4BeNso"),
+    Track(name: "Rada", url: "https://youtu.be/u7j1Vn2TgLY"),
+    Track(name: "A Place in Heaven", url: "https://youtu.be/8iHmWdbKp1w"),
+    Track(name: "Merchant Prince", url: "https://youtu.be/ZgSCNS851Rg"),
+    Track(name: "Promise", url: "https://youtu.be/edbuhwrKBXY"),
+    Track(name: "Femme fatale", url: "https://youtu.be/suUtJxccoaU"),
+    Track(name: "Homecoming", url: "https://youtu.be/0RVIgZRRlmk"),
+    Track(name: "Immortal", url: "https://youtu.be/o65GSQPRhhw"),
+    Track(name: "Remember Me", url: "https://youtu.be/YwMDL4tU-FE"),
+    Track(name: "Sonera", url: "https://youtu.be/AC1w1FjAfqE"),
+    Track(name: "Reborn", url: "https://youtu.be/sHDQAHOAAwY"),
+    Track(name: "Age of Gods", url: "https://youtu.be/wxtnFs7lpA4"),
+    Track(name: "Illusions", url: "https://youtu.be/Y1qzm3UUTrg"),
+    Track(name: "Soulseeker", url: "https://youtu.be/0AIJEX7vQgg")
+]
+
 var ArchangelTrack: [Track] = [
     Track(name: "Mercy in Darkness", url: "https://youtu.be/D9TtYbt7mCg"),
     Track(name: "Archangel", url: "https://youtu.be/mLUguXpUIb0"),
@@ -106,32 +153,11 @@ var SkyWorldTrack: [Track] = [
     Track(name: "Stormwatch", url: "https://youtu.be/FT0xQioJrDU")
 ]
 
-var IllusionsTrack: [Track] = [
-    Track(name: "Aura", url: "https://youtu.be/JNOpKwnAQyw"),
-    Track(name: "Starvation", url: "https://youtu.be/YnGaCAHhGfo"),
-    Track(name: "Dreammaker", url: "https://youtu.be/k20NwCro8ig"),
-    Track(name: "Hurt", url: "https://youtu.be/VbdTeKo14Jw"),
-    Track(name: "Ocean Princess", url: "https://youtu.be/IwRPc2041Sc"),
-    Track(name: "Gift of Life", url: "https://youtu.be/qgOoB4BeNso"),
-    Track(name: "Rada", url: "https://youtu.be/u7j1Vn2TgLY"),
-    Track(name: "A Place in Heaven", url: "https://youtu.be/8iHmWdbKp1w"),
-    Track(name: "Merchant Prince", url: "https://youtu.be/ZgSCNS851Rg"),
-    Track(name: "Promise", url: "https://youtu.be/edbuhwrKBXY"),
-    Track(name: "Femme fatale", url: "https://youtu.be/suUtJxccoaU"),
-    Track(name: "Homecoming", url: "https://youtu.be/0RVIgZRRlmk"),
-    Track(name: "Immortal", url: "https://youtu.be/o65GSQPRhhw"),
-    Track(name: "Remember Me", url: "https://youtu.be/YwMDL4tU-FE"),
-    Track(name: "Sonera", url: "https://youtu.be/AC1w1FjAfqE"),
-    Track(name: "Reborn", url: "https://youtu.be/sHDQAHOAAwY"),
-    Track(name: "Age of Gods", url: "https://youtu.be/wxtnFs7lpA4"),
-    Track(name: "Illusions", url: "https://youtu.be/Y1qzm3UUTrg"),
-    Track(name: "Soulseeker", url: "https://youtu.be/0AIJEX7vQgg")
-]
-
 var AlbumList: [Album] = [
+    Album(image: "Invincible", name: "Invincible", year: "2010", description: "Invincible is the first public album by the group Two Steps From Hell. All the tracks, apart from \"Am I Not Human?\" and \"To Glory\" (both of which were later released on the album Nero), are from their previous releases. The album also features modified versions of \"Freedom Fighters\" and \"Undying Love\" from the Legend album.", tracks: InvincibleTrack),
+    Album(image: "Illusions", name: "Illusions", year: "2011", description: "llusions (formerly called 'Nemesis II') is a stand-alone production album created by Thomas J. Bergersen from Two Steps From Hell, and was released in 2011.", tracks: IllusionsTrack),
     Album(image: "Archangel", name: "Archangel", year: "2011", description: "Archangel is the second public album by the group Two Steps from Hell. It consists of 26 tracks written by composers Thomas J. Bergersen and Nick Phoenix. The album contains 14 tracks from the album Nero.", tracks: ArchangelTrack),
-    Album(image: "SkyWorld", name: "SkyWorld", year: "2012", description: "SkyWorld is the fourth public album by the group Two Steps from Hell. The album contains 22 tracks written by composers Thomas J. Bergersen and Nick Phoenix. All tracks, except for Dark Ages, are brand new original tracks. The cover and sleeve are designed by Steven R. Gilmore, with the futuristic city illustration by Sergey Vorontsov.", tracks: SkyWorldTrack),
-    Album(image: "Illusions", name: "Illusions", year: "2011", description: "llusions (formerly called 'Nemesis II') is a stand-alone production album created by Thomas J. Bergersen from Two Steps From Hell, and was released in 2011.", tracks: IllusionsTrack)
+    Album(image: "SkyWorld", name: "SkyWorld", year: "2012", description: "SkyWorld is the fourth public album by the group Two Steps from Hell. The album contains 22 tracks written by composers Thomas J. Bergersen and Nick Phoenix. All tracks, except for Dark Ages, are brand new original tracks. The cover and sleeve are designed by Steven R. Gilmore, with the futuristic city illustration by Sergey Vorontsov.", tracks: SkyWorldTrack)
 ]
 
 //*************************** TableViewCell Outlet Declaration ****************************
