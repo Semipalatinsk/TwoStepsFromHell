@@ -120,6 +120,29 @@ var ArchangelTrack: [Track] = [
     Track(name: "Friendship to Last", url: "https://youtu.be/Iu74pVYkhNI")
 ]
 
+var HelloweenTrack: [Track] = [
+    Track(name: "Possessed Gramophone", url: "https://youtu.be/4GYov8mchC4"),
+    Track(name: "Cannibal", url: "https://youtu.be/Ynmc8H5JkPU"),
+    Track(name: "72 Virgins", url: "https://youtu.be/Kb0tTYD5xpM"),
+    Track(name: "Swing-Set Murders", url: "https://youtu.be/jcTnAlC0Uuk"),
+    Track(name: "Moving Shadows", url: "https://youtu.be/XQvZ7OdhX5k"),
+    Track(name: "Photos in Darkness", url: "https://youtu.be/wgoj2yHVaF4"),
+    Track(name: "Cemetery Waltz", url: "https://youtu.be/Lhb8-a8VaVw"),
+    Track(name: "To Die on Halloween", url: "https://youtu.be/Wpa8c4kT760"),
+    Track(name: "This Is Oh My Dear", url: "https://youtu.be/ZADfXLmpeEY"),
+    Track(name: "Welcome to Widow Woods", url: "https://youtu.be/k6fGdS5wYpo"),
+    Track(name: "Helevator", url: "https://youtu.be/oj8CH3dwBKA"),
+    Track(name: "Ashes", url: "https://youtu.be/YM5tdEzTAhM"),
+    Track(name: "Something Wicked Lurks", url: "https://youtu.be/A1ZydcSgacM"),
+    Track(name: "Come What May", url: "https://youtu.be/DZ1lRneFyHs"),
+    Track(name: "Hunter's Moon", url: "https://youtu.be/ISEOyKGGmOU"),
+    Track(name: "Green Hill Massacre", url: "https://youtu.be/_MJCaCXQOPo"),
+    Track(name: "Ghostly Presence", url: "https://youtu.be/wQikcsycnp8"),
+    Track(name: "Bottomless Pit of Torment", url: "https://youtu.be/3obz09yKPJE"),
+    Track(name: "Crawlspace", url: "https://youtu.be/wi1A8Bu9cvI"),
+    Track(name: "Exhumed", url: "https://youtu.be/P4nf5WQrtIo"),
+]
+
 var SkyWorldTrack: [Track] = [
     Track(name: "All Is Hell That Ends Well", url: "https://youtu.be/NLUj9lFPU6s"),
     Track(name: "Titan Dream", url: "https://youtu.be/xwX84DOz2XQ"),
@@ -153,11 +176,38 @@ var SkyWorldTrack: [Track] = [
     Track(name: "Stormwatch", url: "https://youtu.be/FT0xQioJrDU")
 ]
 
+var ClassicsVolOneTrack: [Track] = [
+    Track(name: "Nemesis", url: "https://youtu.be/I9Ej80wM4wI"),
+    Track(name: "Armada", url: "https://youtu.be/s9eTboBUhiE"),
+    Track(name: "Magnan Imus", url: "https://youtu.be/NKQzFmKpPK0"),
+    Track(name: "Jump!", url: "https://youtu.be/nkogNDpk0lg"),
+    Track(name: "Sons of War", url: "https://youtu.be/utujHPkjfwI"),
+    Track(name: "Return from Darkness", url: "https://youtu.be/PcIe0GyM0ok"),
+    Track(name: "Strength of an Empire", url: "https://youtu.be/Vqiv8qpY780"),
+    Track(name: "Eternal Sorrow", url: "https://youtu.be/brcj-UeAVdA"),
+    Track(name: "The Ancients", url: "https://youtu.be/Vm3q6dCeP7M"),
+    Track(name: "Birth of a Hero", url: "https://youtu.be/KWgNr7D0Cg0"),
+    Track(name: "Sky Titans", url: "https://youtu.be/CK1ot8rVOtM"),
+    Track(name: "Path to Earth", url: "https://youtu.be/vS60tr2PWBg"),
+    Track(name: "Earth Rising", url: "https://youtu.be/iJon23WzIQ8"),
+    Track(name: "Ironheart", url: "https://youtu.be/zTD3mWz-N_M"),
+    Track(name: "Fortress of Seduction", url: "https://youtu.be/bX27JCUcLoo"),
+    Track(name: "Clairvoyant", url: "https://youtu.be/q2YAoawu-Ms"),
+    Track(name: "White Witch", url: "https://youtu.be/5Y0eF8As2QI"),
+    Track(name: "Spirit of Moravia", url: "https://youtu.be/YGKA7FaA5_s"),
+    Track(name: "The Cross of Antiquan", url: "https://youtu.be/Wgjt_Lkq7Q4"),
+    Track(name: "Asimov", url: "https://youtu.be/Ypzp22A1BW4"),
+    Track(name: "Stormwatch", url: "https://youtu.be/FT0xQioJrDU"),
+    Track(name: "The World Is Mind", url: "https://youtu.be/dNzrFKxyb60"),
+    Track(name: "Little Ben", url: "https://youtu.be/b5udkAkZBkQ")
+]
+
 var AlbumList: [Album] = [
     Album(image: "Invincible", name: "Invincible", year: "2010", description: "Invincible is the first public album by the group Two Steps From Hell. All the tracks, apart from \"Am I Not Human?\" and \"To Glory\" (both of which were later released on the album Nero), are from their previous releases. The album also features modified versions of \"Freedom Fighters\" and \"Undying Love\" from the Legend album.", tracks: InvincibleTrack),
-    Album(image: "Illusions", name: "Illusions", year: "2011", description: "llusions (formerly called 'Nemesis II') is a stand-alone production album created by Thomas J. Bergersen from Two Steps From Hell, and was released in 2011.", tracks: IllusionsTrack),
+    Album(image: "Illusions", name: "Illusions", year: "2011", description: "llusions (formerly called \"Nemesis II\") is a stand-alone production album created by Thomas J. Bergersen from Two Steps From Hell, and was released in 2011.", tracks: IllusionsTrack),
     Album(image: "Archangel", name: "Archangel", year: "2011", description: "Archangel is the second public album by the group Two Steps from Hell. It consists of 26 tracks written by composers Thomas J. Bergersen and Nick Phoenix. The album contains 14 tracks from the album Nero.", tracks: ArchangelTrack),
-    Album(image: "SkyWorld", name: "SkyWorld", year: "2012", description: "SkyWorld is the fourth public album by the group Two Steps from Hell. The album contains 22 tracks written by composers Thomas J. Bergersen and Nick Phoenix. All tracks, except for Dark Ages, are brand new original tracks. The cover and sleeve are designed by Steven R. Gilmore, with the futuristic city illustration by Sergey Vorontsov.", tracks: SkyWorldTrack)
+    Album(image: "SkyWorld", name: "SkyWorld", year: "2012", description: "SkyWorld is the fourth public album by the group Two Steps from Hell. The album contains 22 tracks written by composers Thomas J. Bergersen and Nick Phoenix. All tracks, except for Dark Ages, are brand new original tracks. The cover and sleeve are designed by Steven R. Gilmore, with the futuristic city illustration by Sergey Vorontsov.", tracks: SkyWorldTrack),
+    Album(image: "Classics Vol_ 1", name: "Classic Volume One", year: "2013", description: "Classics Volume One, also stylised as Classics, Vol. 1, is the fifth public album by the group Two Steps From Hell. This album is the first public album available in lossless audio, with others to follow.[2] All songs except \"Return from Darkness\" and \"Path to Earth\" are from their previous promotional releases.", tracks: ClassicsVolOneTrack)
 ]
 
 //*************************** TableViewCell Outlet Declaration ****************************
