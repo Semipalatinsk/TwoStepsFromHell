@@ -2,10 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "Illusion@1x.jpeg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Illusion@2x.jpeg",
       "scale" : "2x"
     },
     {

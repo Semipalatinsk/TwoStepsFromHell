@@ -2,10 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "Classics_ Vol_2@1x.jpeg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Classics_ Vol_2@2x.jpeg",
       "scale" : "2x"
     },
     {

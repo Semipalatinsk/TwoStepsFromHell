@@ -2,15 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "Miracles@1x.jpg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Miracles@2x.jpg",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "Two Steps from Hell - Miracles.jpg",
+      "filename" : "Miracles@3x.jpg",
       "scale" : "3x"
     }
   ],

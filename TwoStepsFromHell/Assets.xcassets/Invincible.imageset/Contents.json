@@ -2,10 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "Invincible@1x.jpeg",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Invincible@2x.jpeg",
       "scale" : "2x"
     },
     {
