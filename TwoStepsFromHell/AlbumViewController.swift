@@ -47,30 +47,30 @@ var producer: Producer = Producer.init()
 var ArchangelTrack: [Track] = [
     Track(name: "Mercy in Darkness", url: "https://youtu.be/D9TtYbt7mCg"),
     Track(name: "Archangel", url: "https://youtu.be/mLUguXpUIb0"),
-    Track(name: "Everlasting", url: "https://www.youtube.com/watch?v=KFcwvsc522Y&index=6&list=PLEB32169AC91318A2"),
-    Track(name: "United We Stand, Divided We Fall", url: "https://www.youtube.com/watch?v=6O6Q1OiF6LI&list=PLEB32169AC91318A2&index=7"),
-    Track(name: "Love & Loss", url: "https://www.youtube.com/watch?v=4ctj97FAylQ&list=PLEB32169AC91318A2&index=8"),
-    Track(name: "The Last Stand", url: "https://www.youtube.com/watch?v=H7qOJrT_lUg&list=PLEB32169AC91318A2&index=9"),
-    Track(name: "Nero", url: "https://www.youtube.com/watch?v=7LtnLVRvypw&index=10&list=PLEB32169AC91318A2"),
-    Track(name: "Destructo", url: "https://www.youtube.com/watch?v=Nc4hQsRpD6E&index=11&list=PLEB32169AC91318A2"),
-    Track(name: "Atlantis", url: "https://www.youtube.com/watch?v=XB8k7LhoIV0&list=PLEB32169AC91318A2&index=12"),
-    Track(name: "Strength of a Thousand Men", url: "https://www.youtube.com/watch?v=jIxas0a-KgM&list=PLEB32169AC91318A2&index=1"),
-    Track(name: "Unexplained Forces", url: "https://www.youtube.com/watch?v=0TwP8aN-IIc&list=PLEB32169AC91318A2&index=15"),
-    Track(name: "Magic of Love", url: "https://www.youtube.com/watch?v=t62B1EzTmDg&list=PLEB32169AC91318A2&index=16"),
-    Track(name: "Norwegian Pirate", url: "https://www.youtube.com/watch?v=7S3DDr-TiDQ&list=PLEB32169AC91318A2&index=17"),
-    Track(name: "Dark Harbor", url: "https://www.youtube.com/watch?v=PgroHfKeZ3s&index=18&list=PLEB32169AC91318A2"),
-    Track(name: "Dragon Rider", url: "https://www.youtube.com/watch?v=pKv_wua6kFE&index=20&list=PLEB32169AC91318A2"),
-    Track(name: "Mountains From Water", url: "https://www.youtube.com/watch?v=Z_0Ta-m_-hU&list=PLEB32169AC91318A2&index=21"),
-    Track(name: "Titan Dune", url: "https://www.youtube.com/watch?v=EYkOpm0ZxNI&list=PLEB32169AC91318A2&index=22"),
-    Track(name: "Ironwing", url: "https://www.youtube.com/watch?v=xwBLoEfxlAA&list=PLEB32169AC91318A2&index=23"),
-    Track(name: "Army of Justice", url: "https://www.youtube.com/watch?v=y2e3pXPHt60&list=PLEB32169AC91318A2&index=24"),
-    Track(name: "Immortal Avenger", url: "https://www.youtube.com/watch?v=5STVoaxz8-Y&index=26&list=PLEB32169AC91318A2"),
-    Track(name: "He Who Brings the Night", url: "https://www.youtube.com/watch?v=dxNwZ0_xvP8&list=PLEB32169AC91318A2&index=27"),
-    Track(name: "Caradhras", url: "https://www.youtube.com/watch?v=ZDci1jlOMQI&index=28&list=PLEB32169AC91318A2"),
-    Track(name: "Sanctuary Is Lost", url: "https://www.youtube.com/watch?v=NraFTvSu1lg&index=29&list=PLEB32169AC91318A2"),
-    Track(name: "What's Happening to Me", url: "https://www.youtube.com/watch?v=kDtuUgigtQE&index=30&list=PLEB32169AC91318A2"),
-    Track(name: "Aesir", url: "https://www.youtube.com/watch?v=dlIHGrTlGRo&list=PLEB32169AC91318A2&index=31"),
-    Track(name: "Friendship to Last", url: "https://www.youtube.com/watch?v=Iu74pVYkhNI&list=PLEB32169AC91318A2&index=32")
+    Track(name: "Everlasting", url: "https://youtu.be/KFcwvsc522Y"),
+    Track(name: "United We Stand Divided We Fall", url: "https://youtu.be/Z9RfGPMf0BY"),
+    Track(name: "Love & Loss", url: "https://youtu.be/4ctj97FAylQ"),
+    Track(name: "The Last Stand", url: "https://youtu.be/H7qOJrT_lUg"),
+    Track(name: "Nero", url: "https://youtu.be/7LtnLVRvypw"),
+    Track(name: "Destructo", url: "https://youtu.be/Nc4hQsRpD6E"),
+    Track(name: "Atlantis", url: "https://youtu.be/XB8k7LhoIV0"),
+    Track(name: "Strength of a Thousand Men", url: "https://youtu.be/jIxas0a-KgM"),
+    Track(name: "Unexplained Forces", url: "https://youtu.be/0TwP8aN-IIc"),
+    Track(name: "Magic of Love", url: "https://youtu.be/t62B1EzTmDg"),
+    Track(name: "Norwegian Pirate", url: "https://youtu.be/7S3DDr-TiDQ"),
+    Track(name: "Dark Harbor", url: "https://youtu.be/PgroHfKeZ3s"),
+    Track(name: "Dragon Rider", url: "https://youtu.be/pKv_wua6kFE"),
+    Track(name: "Mountains From Water", url: "https://youtu.be/Z_0Ta-m_-hU"),
+    Track(name: "Titan Dune", url: "https://youtu.be/EYkOpm0ZxNI"),
+    Track(name: "Ironwing", url: "https://youtu.be/xwBLoEfxlAA"),
+    Track(name: "Army of Justice", url: "https://youtu.be/y2e3pXPHt60"),
+    Track(name: "Immortal Avenger", url: "https://youtu.be/5STVoaxz8-Y"),
+    Track(name: "He Who Brings the Night", url: "https://youtu.be/dxNwZ0_xvP8"),
+    Track(name: "Caradhras", url: "https://youtu.be/ZDci1jlOMQI"),
+    Track(name: "Sanctuary Is Lost", url: "https://youtu.be/NraFTvSu1lg"),
+    Track(name: "What's Happening to Me", url: "https://youtu.be/kDtuUgigtQE"),
+    Track(name: "Aesir", url: "https://youtu.be/dlIHGrTlGRo"),
+    Track(name: "Friendship to Last", url: "https://youtu.be/Iu74pVYkhNI")
 ]
 
 var SkyWorldTrack: [Track] = [
@@ -106,9 +106,32 @@ var SkyWorldTrack: [Track] = [
     Track(name: "Stormwatch", url: "https://youtu.be/FT0xQioJrDU")
 ]
 
+var IllusionsTrack: [Track] = [
+    Track(name: "Aura", url: "https://youtu.be/JNOpKwnAQyw"),
+    Track(name: "Starvation", url: "https://youtu.be/YnGaCAHhGfo"),
+    Track(name: "Dreammaker", url: "https://youtu.be/k20NwCro8ig"),
+    Track(name: "Hurt", url: "https://youtu.be/VbdTeKo14Jw"),
+    Track(name: "Ocean Princess", url: "https://youtu.be/IwRPc2041Sc"),
+    Track(name: "Gift of Life", url: "https://youtu.be/qgOoB4BeNso"),
+    Track(name: "Rada", url: "https://youtu.be/u7j1Vn2TgLY"),
+    Track(name: "A Place in Heaven", url: "https://youtu.be/8iHmWdbKp1w"),
+    Track(name: "Merchant Prince", url: "https://youtu.be/ZgSCNS851Rg"),
+    Track(name: "Promise", url: "https://youtu.be/edbuhwrKBXY"),
+    Track(name: "Femme fatale", url: "https://youtu.be/suUtJxccoaU"),
+    Track(name: "Homecoming", url: "https://youtu.be/0RVIgZRRlmk"),
+    Track(name: "Immortal", url: "https://youtu.be/o65GSQPRhhw"),
+    Track(name: "Remember Me", url: "https://youtu.be/YwMDL4tU-FE"),
+    Track(name: "Sonera", url: "https://youtu.be/AC1w1FjAfqE"),
+    Track(name: "Reborn", url: "https://youtu.be/sHDQAHOAAwY"),
+    Track(name: "Age of Gods", url: "https://youtu.be/wxtnFs7lpA4"),
+    Track(name: "Illusions", url: "https://youtu.be/Y1qzm3UUTrg"),
+    Track(name: "Soulseeker", url: "https://youtu.be/0AIJEX7vQgg")
+]
+
 var AlbumList: [Album] = [
     Album(image: "Archangel", name: "Archangel", year: "2011", description: "Archangel is the second public album by the group Two Steps from Hell. It consists of 26 tracks written by composers Thomas J. Bergersen and Nick Phoenix. The album contains 14 tracks from the album Nero.", tracks: ArchangelTrack),
-    Album(image: "SkyWorld", name: "SkyWorld", year: "2012", description: "SkyWorld is the fourth public album by the group Two Steps from Hell. The album contains 22 tracks written by composers Thomas J. Bergersen and Nick Phoenix. All tracks, except for Dark Ages, are brand new original tracks. The cover and sleeve are designed by Steven R. Gilmore, with the futuristic city illustration by Sergey Vorontsov.", tracks: SkyWorldTrack)
+    Album(image: "SkyWorld", name: "SkyWorld", year: "2012", description: "SkyWorld is the fourth public album by the group Two Steps from Hell. The album contains 22 tracks written by composers Thomas J. Bergersen and Nick Phoenix. All tracks, except for Dark Ages, are brand new original tracks. The cover and sleeve are designed by Steven R. Gilmore, with the futuristic city illustration by Sergey Vorontsov.", tracks: SkyWorldTrack),
+    Album(image: "Illusions", name: "Illusions", year: "2011", description: "llusions (formerly called 'Nemesis II') is a stand-alone production album created by Thomas J. Bergersen from Two Steps From Hell, and was released in 2011.", tracks: IllusionsTrack)
 ]
 
 //*************************** TableViewCell Outlet Declaration ****************************
