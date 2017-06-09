@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="post-1005229916-0-30558500-1431179760" translatesAutoresizingMaskIntoConstraints="NO" id="pNB-vK-mS1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Badge" translatesAutoresizingMaskIntoConstraints="NO" id="pNB-vK-mS1">
                                 <rect key="frame" x="0.0" y="73" width="414" height="169"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -309,9 +309,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Badge" width="400" height="155"/>
         <image name="TSFH logo C" width="73" height="215"/>
         <image name="album-simple-7" width="30" height="30"/>
-        <image name="post-1005229916-0-30558500-1431179760" width="400" height="155"/>
         <image name="two-steps-from-hell" width="200" height="200"/>
     </resources>
     <inferredMetricsTieBreakers>
