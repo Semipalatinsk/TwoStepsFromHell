@@ -202,7 +202,28 @@ var ClassicsVolOneTrack: [Track] = [
     Track(name: "Little Ben", url: "https://youtu.be/b5udkAkZBkQ")
 ]
 
-var SpeedOfSoundTrack: [Track] = []
+var SpeedOfSoundTrack: [Track] = [
+    Track(name: "Depthx", url: ""),
+    Track(name: "Vanguard", url: ""),
+    Track(name: "Splitstar", url: ""),
+    Track(name: "Planet-Ize", url: ""),
+    Track(name: "Speed of Sound", url: ""),
+    Track(name: "Dropspace", url: ""),
+    Track(name: "Gods in the Cloud", url: ""),
+    Track(name: "Anthem of the Ruins", url: ""),
+    Track(name: "Countdown to Affinity", url: ""),
+    Track(name: "Imperia", url: ""),
+    Track(name: "Hall of Heroes", url: ""),
+    Track(name: "Low G Mission", url: ""),
+    Track(name: "Battlestar Rising", url: ""),
+    Track(name: "Raxez 19", url: ""),
+    Track(name: "Rise of the Father", url: ""),
+    Track(name: "Thundersuit", url: ""),
+    Track(name: "Dunecraft", url: ""),
+    Track(name: "Redspace", url: ""),
+    Track(name: "Bird Planet", url: ""),
+    Track(name: "Mechanize", url: "")
+]
 
 var MiraclesTrack: [Track] = [
     Track(name: "Miracles", url: ""),
