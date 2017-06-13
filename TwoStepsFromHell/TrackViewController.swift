@@ -27,6 +27,7 @@ class TrackViewController: UIViewController, UITableViewDataSource, UITableViewD
         super.viewDidLoad()
         
         self.title = album.name
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "Back", style: UIBarButtonItemStyle.plain, target: nil, action: nil)
         AlbumImageView.image = album.image
         AlbumDescriptionLabel.text = album.description
         tracks = album.tracks
