@@ -9,11 +9,15 @@
 import UIKit
 import SafariServices
 
+class TrackTableViewCell: UITableViewCell{
+    @IBOutlet var TrackNameLabel: UILabel!
+
+}
+
 class TrackViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var TrackTableView: UITableView!
     @IBOutlet var AlbumImageView: UIImageView!
-    @IBOutlet var AlbumNameLabel: UILabel!
     @IBOutlet var AlbumDescriptionLabel: UILabel!
     
     var album: Album!
@@ -38,9 +42,9 @@ class TrackViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "Cell"
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! TrackTableViewCell
         
-        cell.textLabel?.text = tracks[indexPath.row].name
+        cell.TrackNameLabel.text = tracks[indexPath.row].name
         
         return cell
     }
