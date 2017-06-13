@@ -35,5 +35,18 @@ class MoreAboutViewController: UIViewController {
             present(safariController, animated: true, completion: nil)
         }
     }
+    
+    @IBAction func jason19956779Tapped(_ sender: UIButton){
+        if let url = URL(string: "https://github.com/jason19956779") {
+            let safariController = SFSafariViewController(url: url)
+            present(safariController, animated: true, completion: nil)
+        }
+    }
 
+    @IBAction func dggg123567Tapped(_ sender: UIButton){
+        if let url = URL(string: "https://github.com/dggg123567") {
+            let safariController = SFSafariViewController(url: url)
+            present(safariController, animated: true, completion: nil)
+        }
+    }
 }
