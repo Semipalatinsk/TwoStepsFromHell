@@ -10,7 +10,7 @@ import UIKit
 
 //*************************** Data Class Declaration ****************************
 class Producer {
-    var image: String = ""
+    var image: UIImage? = nil
     var name: String = "Two Steps From Hell"
     var description: String = "Two Steps from Hell is an American production music company based in Los Angeles, California, founded by Thomas J. Bergersen and Nick Phoenix in 2006. The company focuses predominantly on movie and trailer music, and has supplied tracks to films such as Interstellar, Harry Potter, Pirates of the Caribbean, and X-Men."
 }
@@ -26,13 +26,13 @@ class Track {
 }
 
 class Album {
-    var image: String = ""
+    var image: UIImage?
     var name: String = ""
     var year: String = ""
     var description:String = ""
     var tracks: [Track] = []
     
-    init(image: String, name: String, year: String, description: String, tracks: [Track]) {
+    init(image: UIImage, name: String, year: String, description: String, tracks: [Track]) {
         self.image = image
         self.name = name
         self.year = year
@@ -120,7 +120,7 @@ var ArchangelTrack: [Track] = [
     Track(name: "Friendship to Last", url: "https://youtu.be/Iu74pVYkhNI")
 ]
 
-var HelloweenTrack: [Track] = [
+var HalloweenTrack: [Track] = [
     Track(name: "Possessed Gramophone", url: "https://youtu.be/4GYov8mchC4"),
     Track(name: "Cannibal", url: "https://youtu.be/Ynmc8H5JkPU"),
     Track(name: "72 Virgins", url: "https://youtu.be/Kb0tTYD5xpM"),
@@ -202,12 +202,34 @@ var ClassicsVolOneTrack: [Track] = [
     Track(name: "Little Ben", url: "https://youtu.be/b5udkAkZBkQ")
 ]
 
+var SpeedOfSoundTrack: [Track] = []
+
+var MiraclesTrack: [Track] = []
+
+var SunTrack: [Track] = []
+
+var BattlecryTrack: [Track] = []
+
+var LegacyTrack: [Track] = []
+
+var ClassicsVolTwoTrack: [Track] = []
+
+var VanquishTrack: [Track] = []
+
 var AlbumList: [Album] = [
-    Album(image: "Invincible", name: "Invincible", year: "2010", description: "Invincible is the first public album by the group Two Steps From Hell. All the tracks, apart from \"Am I Not Human?\" and \"To Glory\" (both of which were later released on the album Nero), are from their previous releases. The album also features modified versions of \"Freedom Fighters\" and \"Undying Love\" from the Legend album.", tracks: InvincibleTrack),
-    Album(image: "Illusions", name: "Illusions", year: "2011", description: "llusions (formerly called \"Nemesis II\") is a stand-alone production album created by Thomas J. Bergersen from Two Steps From Hell, and was released in 2011.", tracks: IllusionsTrack),
-    Album(image: "Archangel", name: "Archangel", year: "2011", description: "Archangel is the second public album by the group Two Steps from Hell. It consists of 26 tracks written by composers Thomas J. Bergersen and Nick Phoenix. The album contains 14 tracks from the album Nero.", tracks: ArchangelTrack),
-    Album(image: "SkyWorld", name: "SkyWorld", year: "2012", description: "SkyWorld is the fourth public album by the group Two Steps from Hell. The album contains 22 tracks written by composers Thomas J. Bergersen and Nick Phoenix. All tracks, except for Dark Ages, are brand new original tracks. The cover and sleeve are designed by Steven R. Gilmore, with the futuristic city illustration by Sergey Vorontsov.", tracks: SkyWorldTrack),
-    Album(image: "Classics Vol_ 1", name: "Classic Volume One", year: "2013", description: "Classics Volume One, also stylised as Classics, Vol. 1, is the fifth public album by the group Two Steps From Hell. This album is the first public album available in lossless audio, with others to follow.[2] All songs except \"Return from Darkness\" and \"Path to Earth\" are from their previous promotional releases.", tracks: ClassicsVolOneTrack)
+    Album(image: #imageLiteral(resourceName: "Invincible"), name: "Invincible", year: "2010", description: "Invincible is the first public album by the group Two Steps From Hell. All the tracks, apart from \"Am I Not Human?\" and \"To Glory\" (both of which were later released on the album Nero), are from their previous releases. The album also features modified versions of \"Freedom Fighters\" and \"Undying Love\" from the Legend album.", tracks: InvincibleTrack),
+    Album(image: #imageLiteral(resourceName: "Illusions"), name: "Illusions", year: "2011", description: "llusions (formerly called \"Nemesis II\") is a stand-alone production album created by Thomas J. Bergersen from Two Steps From Hell, and was released in 2011.", tracks: IllusionsTrack),
+    Album(image: #imageLiteral(resourceName: "Archangel"), name: "Archangel", year: "2011", description: "Archangel is the second public album by the group Two Steps from Hell. It consists of 26 tracks written by composers Thomas J. Bergersen and Nick Phoenix. The album contains 14 tracks from the album Nero.", tracks: ArchangelTrack),
+    Album(image: #imageLiteral(resourceName: "Halloween"), name: "Halloween", year: "2012", description: "Halloween is the third public album by the group Two Steps from Hell. This public album is the first to have songs with English vocals.", tracks: HalloweenTrack),
+    Album(image: #imageLiteral(resourceName: "SkyWorld"), name: "SkyWorld", year: "2012", description: "SkyWorld is the fourth public album by the group Two Steps from Hell. The album contains 22 tracks written by composers Thomas J. Bergersen and Nick Phoenix. All tracks, except for Dark Ages, are brand new original tracks. The cover and sleeve are designed by Steven R. Gilmore, with the futuristic city illustration by Sergey Vorontsov.", tracks: SkyWorldTrack),
+    Album(image: #imageLiteral(resourceName: "Classics Vol_ 1"), name: "Classic Volume One", year: "2013", description: "Classics Volume One, also stylised as Classics, Vol. 1, is the fifth public album by the group Two Steps From Hell. This album is the first public album available in lossless audio, with others to follow.[2] All songs except \"Return from Darkness\" and \"Path to Earth\" are from their previous promotional releases.", tracks: ClassicsVolOneTrack),
+    Album(image: #imageLiteral(resourceName: "Speed Of Sound"), name: "Speed Of Sound", year: "2013", description: "Speed of Sound is a hybrid electronic/orchestral album released by Two Steps from Hell composer Nick Phoenix in 2013 on iTunes, Amazon and CDBaby. Although released publicly under Phoenix's name, the album is considered part of the Two Steps from Hell catalog, and is featured on ExtremeMusic.com with several alternate versions of the original 20 tracks.", tracks: SpeedOfSoundTrack),
+    Album(image: #imageLiteral(resourceName: "Miracles"), name: "Miracles", year: "2014", description: "Miracles is the sixth public album by the group Two Steps From Hell. This album features several new tracks, as well as material selected from earlier non-public albums", tracks: MiraclesTrack),
+    Album(image: #imageLiteral(resourceName: "Sun"), name: "Sun", year: "2014", description: "Sun is the second stand-alone production album created by Thomas J. Bergersen from Two Steps from Hell. The release contains 16 tracks, featuring vocal performances by Merethe Soltvedt, Molly Conole and other vocalists. The album cover and artwork are designed by Bergersen himself.", tracks: SunTrack),
+    Album(image: #imageLiteral(resourceName: "Battlecry"), name: "Battlecry", year: "2015", description: "Battlecry is the eighth public album by the group Two Steps from Hell. Battlecry is the first public album by Two Steps from Hell being released on two discs and furthermore the first public release to feature instrumental versions of two tracks.", tracks: BattlecryTrack),
+    Album(image: #imageLiteral(resourceName: "Legacy"), name: "Legacy", year: "2015", description: "Legacy is the tenth public album released by Two Steps From Hell. It essentially served as a compilation album, featuring 23 tracks that were previously featured on prior public albums. Despite being released exclusively in Japan, it can also be purchased on Amazon.", tracks: LegacyTrack),
+    Album(image: #imageLiteral(resourceName: "Classics_ Vol_2"), name: "Classics Volume Two", year: "2015", description: "Classics Volume Two, also stylised as Classics, Vol. 2, is the ninth public album by the group Two Steps From Hell. The album features tracks containing vocal performances by Felicia Farerre and Aya Peard.", tracks: ClassicsVolTwoTrack),
+    Album(image: #imageLiteral(resourceName: "Vanquish"), name: "Vanquish", year: "2016", description: "Vanquish is the tenth studio album by the group Two Steps from Hell. The album is the first major public release to include no material from industry album releases. It features vocal performances by Felicia Farerre, Asja Kadric, Jenifer Thigpen, and Linea Adamson.", tracks: VanquishTrack)
 ]
 
 //*************************** TableViewCell Outlet Declaration ****************************
@@ -245,7 +267,7 @@ class AlbumViewController: UIViewController, UITableViewDataSource, UITableViewD
         let cellIdentifier = "Cell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! TableViewCell
         
-        cell.AlbumImageView.image = UIImage(named: AlbumList[indexPath.row].image)
+        cell.AlbumImageView.image = AlbumList[indexPath.row].image
         cell.AlbumNameLabel.text = AlbumList[indexPath.row].name
         cell.AlbumYear.text = AlbumList[indexPath.row].year
         

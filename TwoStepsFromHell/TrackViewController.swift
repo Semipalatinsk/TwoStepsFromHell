@@ -23,7 +23,7 @@ class TrackViewController: UIViewController, UITableViewDataSource, UITableViewD
         super.viewDidLoad()
         
         self.title = album.name
-        AlbumImageView.image = UIImage(named: album.image)
+        AlbumImageView.image = album.image
         AlbumDescriptionLabel.text = album.description
         tracks = album.tracks
     }
