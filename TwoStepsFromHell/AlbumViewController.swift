@@ -204,7 +204,29 @@ var ClassicsVolOneTrack: [Track] = [
 
 var SpeedOfSoundTrack: [Track] = []
 
-var MiraclesTrack: [Track] = []
+var MiraclesTrack: [Track] = [
+    Track(name: "Miracles", url: ""),
+    Track(name: "Eria", url: ""),
+    Track(name: "Compass", url: ""),
+    Track(name: "Sun Gazer", url: ""),
+    Track(name: "Eyes Closing", url: ""),
+    Track(name: "Fountain of Life", url: ""),
+    Track(name: "Stay", url: ""),
+    Track(name: "Men of Honor", url: ""),
+    Track(name: "My Freedom", url: ""),
+    Track(name: "Perfect Love", url: ""),
+    Track(name: "Lux aeterna", url: ""),
+    Track(name: "I Love You Forever", url: ""),
+    Track(name: "Color the Sky", url: ""),
+    Track(name: "Forever in My Dreams", url: ""),
+    Track(name: "Breath of Cold Air", url: ""),
+    Track(name: "Heart", url: ""),
+    Track(name: "Wind Queen", url: ""),
+    Track(name: "Northern Pastures", url: ""),
+    Track(name: "Science", url: ""),
+    Track(name: "Lost in Las Vegas", url: ""),
+    Track(name: "Compass", url: "")
+]
 
 var SunTrack: [Track] = []
 
