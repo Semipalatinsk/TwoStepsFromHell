@@ -249,15 +249,113 @@ var MiraclesTrack: [Track] = [
     Track(name: "Compass", url: "")
 ]
 
-var SunTrack: [Track] = []
+var SunTrack: [Track] = [
+    Track(name: "Before Time", url: ""),
+    Track(name: "Creation of Earth", url: ""),
+    Track(name: "Sun", url: ""),
+    Track(name: "Cry", url: ""),
+    Track(name: "Our Destiny", url: ""),
+    Track(name: "New Life", url: ""),
+    Track(name: "Final Frontier", url: ""),
+    Track(name: "Starchild", url: ""),
+    Track(name: "Colors of Love", url: ""),
+    Track(name: "Cassandra", url: ""),
+    Track(name: "Always Mine", url: ""),
+    Track(name: "Dragonland", url: ""),
+    Track(name: "Fearless", url: ""),
+    Track(name: "Empire of Angels", url: ""),
+    Track(name: "Two Hearts", url: ""),
+    Track(name: "In Paradisum", url: "")
+]
 
-var BattlecryTrack: [Track] = []
+var BattlecryTrack: [Track] = [
+    Track(name: "None Shall Live", url: ""),
+    Track(name: "Stormkeeper", url: ""),
+    Track(name: "Victory", url: ""),
+    Track(name: "Wolf King", url: ""),
+    Track(name: "Rise Above", url: ""),
+    Track(name: "Spellcaster", url: ""),
+    Track(name: "Never Back Down", url: ""),
+    Track(name: "Red Tower", url: ""),
+    Track(name: "Cannon in D Minor", url: ""),
+    Track(name: "Blackout", url: ""),
+    Track(name: "Stronger Faster Braver", url: ""),
+    Track(name: "Battleborne", url: ""),
+    Track(name: "Last of the Light", url: ""),
+    Track(name: "Ultraground", url: ""),
+    Track(name: "Release Me", url: ""),
+    Track(name: "Freedom Ship", url: ""),
+    Track(name: "Amaria", url: ""),
+    Track(name: "Flight of the Silverbird", url: ""),
+    Track(name: "Outpost", url: ""),
+    Track(name: "Unforgiven", url: ""),
+    Track(name: "Across the Blood Water", url: ""),
+    Track(name: "No Honor in Blood", url: ""),
+    Track(name: "Sariel", url: ""),
+    Track(name: "Star Sky", url: ""),
+    Track(name: "Battleborne (Instrumental)", url: ""),
+    Track(name: "Star Sky (Instrumental)", url: "")
+]
 
-var LegacyTrack: [Track] = []
+var LegacyTrack: [Track] = [
+    Track(name: "Heart of Courage", url: ""),
+    Track(name: "Black Blade", url: ""),
+    Track(name: "Fill My Heart", url: ""),
+    Track(name: "Protectors of the Earth", url: ""),
+    Track(name: "To Glory", url: ""),
+    Track(name: "After the Fall", url: ""),
+    Track(name: "Archangel", url: ""),
+    Track(name: "Everlasting", url: ""),
+    Track(name: "Strength of a Thousand Men", url: ""),
+    Track(name: "Norwegian Pirate", url: ""),
+    Track(name: "Dragon Rider", url: ""),
+    Track(name: "Hunter's Moon", url: ""),
+    Track(name: "Titan Dream", url: ""),
+    Track(name: "SkyWorld", url: ""),
+    Track(name: "Winterspell", url: ""),
+    Track(name: "Blackheart", url: ""),
+    Track(name: "For the Win", url: ""),
+    Track(name: "Ocean Kingdom", url: ""),
+    Track(name: "Jump!", url: ""),
+    Track(name: "Sons of War", url: ""),
+    Track(name: "My Freedom", url: ""),
+    Track(name: "Vengeance", url: ""),
+    Track(name: "Welcome to Amaria", url: "")
+]
 
-var ClassicsVolTwoTrack: [Track] = []
+var ClassicsVolTwoTrack: [Track] = [
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: "")
+]
 
-var VanquishTrack: [Track] = []
+var VanquishTrack: [Track] = [
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: ""),
+    Track(name: <#T##String#>, url: "")
+]
 
 var AlbumList: [Album] = [
     Album(image: #imageLiteral(resourceName: "Invincible"), name: "Invincible", year: "2010", description: "Invincible is the first public album by the group Two Steps From Hell. All the tracks, apart from \"Am I Not Human?\" and \"To Glory\" (both of which were later released on the album Nero), are from their previous releases. The album also features modified versions of \"Freedom Fighters\" and \"Undying Love\" from the Legend album.", tracks: InvincibleTrack),
