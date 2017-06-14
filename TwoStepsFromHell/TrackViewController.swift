@@ -35,6 +35,10 @@ class TrackViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     override func viewWillAppear(_ animated: Bool) {
         UIApplication.shared.statusBarStyle = .lightContent
+        
+        if let indexPath = TrackTableView.indexPathForSelectedRow {
+            TrackTableView.deselectRow(at: indexPath, animated: true)
+        }
     }
     
     override func viewWillDisappear(_ animated: Bool) {
