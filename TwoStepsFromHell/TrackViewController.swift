@@ -32,6 +32,15 @@ class TrackViewController: UIViewController, UITableViewDataSource, UITableViewD
         AlbumDescriptionLabel.text = album.description
         tracks = album.tracks
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        UIApplication.shared.statusBarStyle = .lightContent
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        UIApplication.shared.statusBarStyle = UIStatusBarStyle.default
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

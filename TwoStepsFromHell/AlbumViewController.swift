@@ -408,6 +408,16 @@ class AlbumViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         self.title = producer.name
         ProducerDescriptionLabel.text = producer.description
+        //NotificationCenter.default.addObserver(self, selector: #selector(willEnterForeground), name: .UIApplicationWillEnterForeground, object: nil)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        UIApplication.shared.statusBarStyle = .lightContent
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        UIApplication.shared.statusBarStyle = UIStatusBarStyle.default
     }
 
     override func didReceiveMemoryWarning() {
@@ -437,5 +447,9 @@ class AlbumViewController: UIViewController, UITableViewDataSource, UITableViewD
             }
         }
     }
+    
+    /*func willEnterForeground() {
+        UIApplication.shared.statusBarStyle = .lightContent
+    }*/
 
 }
