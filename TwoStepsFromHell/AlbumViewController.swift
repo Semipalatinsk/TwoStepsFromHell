@@ -401,14 +401,11 @@ class AlbumViewController: UIViewController, UITableViewDataSource, UITableViewD
     @IBOutlet var ProducerImageView: UIImageView!
     @IBOutlet var ProducerDescriptionLabel: UILabel!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.title = producer.name
         ProducerDescriptionLabel.text = producer.description
-        //NotificationCenter.default.addObserver(self, selector: #selector(willEnterForeground), name: .UIApplicationWillEnterForeground, object: nil)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -451,9 +448,5 @@ class AlbumViewController: UIViewController, UITableViewDataSource, UITableViewD
             }
         }
     }
-    
-    /*func willEnterForeground() {
-        UIApplication.shared.statusBarStyle = .lightContent
-    }*/
 
 }
