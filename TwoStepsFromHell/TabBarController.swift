@@ -3,7 +3,7 @@
 //  TwoStepsFromHell
 //
 //  Created by dmhs on 2017/6/19.
-//  Copyright © 2017年 NQU. All rights reserved.
+//  Copyright © 2017 NQU. All rights reserved.
 //
 
 import Foundation

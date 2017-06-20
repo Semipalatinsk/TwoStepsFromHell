@@ -3,7 +3,7 @@
 //  TwoStepsFromHell
 //
 //  Created by mac011 on 2017/6/6.
-//  Copyright © 2017年 NQU. All rights reserved.
+//  Copyright © 2017 NQU. All rights reserved.
 //
 
 import UIKit
@@ -11,7 +11,6 @@ import SafariServices
 
 class TrackTableViewCell: UITableViewCell{
     @IBOutlet var TrackNameLabel: UILabel!
-
 }
 
 class TrackViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {

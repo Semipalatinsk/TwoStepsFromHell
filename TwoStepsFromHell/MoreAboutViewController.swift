@@ -3,7 +3,7 @@
 //  TwoStepsFromHell
 //
 //  Created by mac011 on 2017/6/6.
-//  Copyright © 2017年 NQU. All rights reserved.
+//  Copyright © 2017 NQU. All rights reserved.
 //
 
 import UIKit
@@ -13,8 +13,6 @@ class MoreAboutViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -28,7 +26,6 @@ class MoreAboutViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     @IBAction func TSFHWebSiteLinkTapped(_ sender: UIButton) {
