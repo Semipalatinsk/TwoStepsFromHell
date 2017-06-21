@@ -13,6 +13,7 @@
 		8284AB7A1EDEB21300F74806 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8284AB781EDEB21300F74806 /* Main.storyboard */; };
 		8284AB7C1EDEB21300F74806 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8284AB7B1EDEB21300F74806 /* Assets.xcassets */; };
 		8284AB7F1EDEB21300F74806 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8284AB7D1EDEB21300F74806 /* LaunchScreen.storyboard */; };
+		82A3CE6E1EFA5F8C00ADE248 /* TrackList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A3CE6D1EFA5F8C00ADE248 /* TrackList.swift */; };
 		8EDAD7D71EE6D130009B8604 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDAD7D61EE6D130009B8604 /* TrackViewController.swift */; };
 		8EDAD7D91EE6D1CA009B8604 /* MoreAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDAD7D81EE6D1CA009B8604 /* MoreAboutViewController.swift */; };
 		978B99AD1EF7BF3D00BAF365 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978B99AC1EF7BF3D00BAF365 /* TabBarController.swift */; };
@@ -27,6 +28,7 @@
 		8284AB7B1EDEB21300F74806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8284AB7E1EDEB21300F74806 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8284AB801EDEB21300F74806 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A3CE6D1EFA5F8C00ADE248 /* TrackList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackList.swift; sourceTree = "<group>"; };
 		8EDAD7D61EE6D130009B8604 /* TrackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
 		8EDAD7D81EE6D1CA009B8604 /* MoreAboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreAboutViewController.swift; sourceTree = "<group>"; };
 		978B99AC1EF7BF3D00BAF365 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				8284AB7B1EDEB21300F74806 /* Assets.xcassets */,
 				8284AB7D1EDEB21300F74806 /* LaunchScreen.storyboard */,
 				8284AB801EDEB21300F74806 /* Info.plist */,
+				82A3CE6D1EFA5F8C00ADE248 /* TrackList.swift */,
 				8226AFF91EE7DD3400CDEB0B /* AlbumViewController.swift */,
 				8EDAD7D61EE6D130009B8604 /* TrackViewController.swift */,
 				8EDAD7D81EE6D1CA009B8604 /* MoreAboutViewController.swift */,
@@ -108,7 +111,7 @@
 				TargetAttributes = {
 					8284AB701EDEB21300F74806 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = UPB6FU9UJ8;
+						DevelopmentTeam = 2DMC42C3TD;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -155,6 +158,7 @@
 				978B99AD1EF7BF3D00BAF365 /* TabBarController.swift in Sources */,
 				8284AB771EDEB21300F74806 /* ViewController.swift in Sources */,
 				8284AB751EDEB21300F74806 /* AppDelegate.swift in Sources */,
+				82A3CE6E1EFA5F8C00ADE248 /* TrackList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +284,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = UPB6FU9UJ8;
+				DEVELOPMENT_TEAM = 2DMC42C3TD;
 				INFOPLIST_FILE = TwoStepsFromHell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nqu.TwoStepsFromHell1;
+				PRODUCT_BUNDLE_IDENTIFIER = nqu.TwoStepsFromHell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
@@ -295,10 +299,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = UPB6FU9UJ8;
+				DEVELOPMENT_TEAM = 2DMC42C3TD;
 				INFOPLIST_FILE = TwoStepsFromHell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nqu.TwoStepsFromHell1;
+				PRODUCT_BUNDLE_IDENTIFIER = nqu.TwoStepsFromHell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
