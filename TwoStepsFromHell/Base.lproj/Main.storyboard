@@ -185,7 +185,7 @@
                                             <outlet property="AlbumImageView" destination="2kb-FC-Tte" id="OBX-6h-TUm"/>
                                             <outlet property="AlbumNameLabel" destination="LKA-RZ-hRQ" id="TEf-qC-tDj"/>
                                             <outlet property="AlbumYear" destination="Cet-f2-mUI" id="9Mn-vn-rpE"/>
-                                            <segue destination="pCM-fp-jse" kind="presentation" identifier="showTrack" modalTransitionStyle="flipHorizontal" id="rke-gS-3yc"/>
+                                            <segue destination="pCM-fp-jse" kind="show" identifier="showTrack" id="rke-gS-3yc"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
