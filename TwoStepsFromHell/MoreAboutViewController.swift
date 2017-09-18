@@ -28,31 +28,36 @@ class MoreAboutViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-    @IBAction func TSFHWebSiteLinkTapped(_ sender: UIButton) {
-        if let url = URL(string: "http://www.twostepsfromhell.com/") {
+    func SFSafariViewOpen(_ _url: String) {
+        if let url = URL(string: _url) {
             let safariController = SFSafariViewController(url: url)
             present(safariController, animated: true, completion: nil)
         }
     }
     
+    @IBAction func TSFHWebSiteLinkTapped(_ sender: UIButton) {
+        SFSafariViewOpen("http://www.twostepsfromhell.com/")
+    }
+    
     @IBAction func TSFHYoutubeLinkTapped(_ sender: UIButton) {
-        if let url = URL(string: "https://www.youtube.com/user/TwoStepsFromTheMusic") {
-            let safariController = SFSafariViewController(url: url)
-            present(safariController, animated: true, completion: nil)
+        
+        let YoutubeID =  "user/TwoStepsFromTheMusic"
+        let appURL = URL(string: "youtube://www.youtube.com/\(YoutubeID)")!
+        let webURL = "https://www.youtube.com/\(YoutubeID)"
+        let application = UIApplication.shared
+        
+        if application.canOpenURL(appURL as URL) {
+            application.open(appURL as URL)
+        } else {
+            SFSafariViewOpen(webURL)
         }
     }
     
     @IBAction func jason19956779Tapped(_ sender: UIButton){
-        if let url = URL(string: "https://github.com/jason19956779") {
-            let safariController = SFSafariViewController(url: url)
-            present(safariController, animated: true, completion: nil)
-        }
+        SFSafariViewOpen("https://github.com/jason19956779")
     }
 
     @IBAction func dggg123567Tapped(_ sender: UIButton){
-        if let url = URL(string: "https://github.com/dggg123567") {
-            let safariController = SFSafariViewController(url: url)
-            present(safariController, animated: true, completion: nil)
-        }
+        SFSafariViewOpen("https://github.com/dggg123567")
     }
 }

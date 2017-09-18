@@ -57,7 +57,7 @@ class TrackViewController: UIViewController, UITableViewDataSource, UITableViewD
         let cellIdentifier = "Cell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! TrackTableViewCell
         
-        cell.TrackNameLabel.text = tracks[indexPath.row].name
+        cell.TrackNameLabel.text = String(indexPath.row + 1) + ". " + tracks[indexPath.row].name
         
         return cell
     }
